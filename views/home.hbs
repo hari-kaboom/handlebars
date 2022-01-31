@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>{{title}}</title>
+    </head>
+  <body>
+      <h1>todollist</h1>
+    <form action='tasklists' method='POST'><input name='newtask'>      
+    <button id='click'> real</button>
+     <button id='submit'> submit</button>
+     </form>
+    <input id='test'>      
+    <button id='click'> real</button>
+     <button id='submit'> real</button>
+    <ul >
+     
+      {{#each tasks as |t|}}
+        <li>{{t}}</li>
+      {{/each}}
+      
+      </ul>
+     
+  
+  
+  </body>
+</html>
